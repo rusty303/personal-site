@@ -1,8 +1,46 @@
  body{
-   display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  padding: 0;
  }
 img{
-    height:100px;
+    top:4px;
+    margin: 3px;
+  }
+h1{
+  position: absolute;
+  top: 110px;
 }
+p{
+  position:absolute;
+  top: 200px;
+}
+.footer{
+  position:fixed;
+  bottom:5px;
+  height:100px;
+  gap:14px;
+  border: 3px solid black;
+}
+.nav-btn{
+  height:70px;
+}
+.nav-btn img{
+  height: 90%;
+  object-fit: contain;
+}
+.stan{
+  position:absolute;
+  top: 4px
+}
+.stan img{
+  height:100px;
+}
+.sththingy{
+  position:absolute;
+  top:300px;
+
+}
+

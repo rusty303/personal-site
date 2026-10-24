@@ -1,7 +1,15 @@
 
 html,
 body {
-  height: 100%
+  height: 100%;
 background: #FFB5C0;
   background: linear-gradient(90deg, rgba(255, 181, 192, 1) 0%, rgba(255, 217, 217, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+@font-face{
+  font-family: spfont;
+  src: url(south-park-font.woff);
+}
+h1, p{
+  font-family: spfont;
 }
