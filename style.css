@@ -5,11 +5,34 @@ body {
 background: #FFB5C0;
   background: linear-gradient(90deg, rgba(255, 181, 192, 1) 0%, rgba(255, 217, 217, 1) 50%, rgba(255, 255, 255, 1) 100%);
 }
-
+img{
+  margin:3px;
+}
 @font-face{
   font-family: spfont;
-  src: url(south-park-font.woff);
+  src: url(assets/south-park-font.woff);
 }
-h1, p{
+h1, h2, h3, h4, h5, h6, p{
   font-family: spfont;
+}
+.alignment{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.footer{
+  position:fixed;
+  bottom:5px;
+  height:100px;
+  gap:14px;
+  border: 3px solid black;
+}
+.nav-btn{
+  height:70px;
+}
+.nav-btn img{
+  height: 90%;
+  object-fit: contain;
 }
