@@ -28,11 +28,17 @@ h1, h2, h3, h4, h5, h6, p{
   height:100px;
   gap:14px;
   border: 3px solid black;
+  border-radius:12px;
 }
 .nav-btn{
   height:70px;
+ 
 }
 .nav-btn img{
   height: 90%;
   object-fit: contain;
+  border:3px solid black;
+  border-radius:12px;
 }
+
+
